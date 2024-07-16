@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>    
+    <meta charset="UTF-8">
+    <title>ENCRIPTADOR</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cryp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <h1 class="logo"> a</h1>
+
+        </div>
+    </header>
+    <main>
+       
+        <section>
+        <div class="areatext">
+            <textarea id="cifrado" placeholder="Ingrese el Texto a Encriptar o a Desencriptar" cols="60" rows="35"></textarea>
+            <img class="imgdeco" src="decodificado.png">
+        </div>
+
+        <div class="areacifrado">
+            <textarea id="TextoCifrado" placeholder="Ningun Texto Fue encontrado" cols="60" rows="35"></textarea>
+
+        </div>
+        </section>
+        <small class="advertencia">
+            <img src="advertencia.png" alt="advertencia">
+        </small>
+        <small>
+            Solo letras minúsculas y sin acento.
+        </small>
+        
+         <section class="botones">
+            <a  id="encriptar" type="submit"  class="encriptar">ENCRIPTAR</a>
+            <a id="desencriptar" type="submit" class="desencriptar">DESENCRIPTAR</a>
+            <a id="copiar" type="submit" class="copiar">COPIAR</a>
+            <a id="borrar" type="submit"  class="borrar">BORRAR</a>
+        </section>
+
+
+       
+        
+            
+    </main>
+     
+       
+    
+
+    <footer>
+
+    </footer>
+
+    <script src="cryp.js">
+
+    </script>
+
+
+</body>
+</html>
